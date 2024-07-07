@@ -165,7 +165,14 @@ a:focus {
   border-radius: 30px;
   color: #ffffff;
   padding: 12px 14px 12px 14px;
-  box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 3px, rgba(255, 255, 255, 0.13) 0px 1px 3px;
+  transition: 0.3s ease-in-out;
+  /* box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 3px, rgba(255, 255, 255, 0.13) 0px 1px 3px; */
+}
+
+.navbar-brand span:hover {
+  transition: 0.3s ease-in-out;
+  box-shadow: none;
+  opacity: 70%;
 }
 
 .custom_nav-container {
